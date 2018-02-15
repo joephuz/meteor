@@ -258,7 +258,8 @@ var resources = [
   { methodResource: "Connect", directive: "connect-src" },
   { methodResource: "Style", directive: "style-src" },
   { methodResource: "Frame", directive: "frame-src" },
-  { methodResource: "FrameAncestors", directive: "frame-ancestors" }
+  { methodResource: "FrameAncestors", directive: "frame-ancestors" }, 
+  { methodResource: 'WorkerSource', directive: 'worker-src' }
 ];
 _.each(resources,  function (resource) {
   var directive = resource.directive; 
